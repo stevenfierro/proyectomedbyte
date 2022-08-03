@@ -1,0 +1,61 @@
+.home button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(58, 55, 55);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 0 0 10px -6px rgb(12, 12, 12);
+    }
+    .logo{
+     height: 80px;
+     margin-left: -70px;
+    }
+    .iconoCerrar{
+        margin-left: 40px;
+        height: 25px;
+        opacity: 70%;
+    }
+    .iconoCerrar:hover{
+        cursor: pointer;
+        transform: scale(1.15);
+
+    }
+    .header input {
+        background: #FFFFFF;
+    box-shadow: inset -4px -4px 15px -5px rgba(0, 0, 0, 0.25);
+    border-radius: 76px;
+    width: 400px;
+    border:0;
+    height: 40px;
+    text-align: center;
+    color: rgb(58, 55, 55);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    }
+    .perfil{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: -15x;
+        
+    }
+    .imgSearch{
+        height: 20px;
+        opacity: 70%;
+        margin: -40px;
+    }
+    .searchBar{
+        display: flex;
+        align-items: center;
+    }
+    
